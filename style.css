@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    height: 70px;
+    width: none;
+    background-color:#d6d6d6;
+}
+
+header a {
+    color: black;
+    margin: 20px;
+    color: #292929;
+    font-size: 22px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+
+.navrows {
+    width: 100%;
+}
+
+.main {
+    margin: 0 200px;
+    /* width: 500px; */
+}
+
+.close {
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: black;   
+    color: white;
+
+}
+
+.Mc {
+    width: 108px;
+    height: 108px;
+}
+
+.langrow {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.left li,
+.right li {
+    display: inline-block;
+    font-size: 25px;
+    
+}
+
+.fa-search
+.a-map-marker-alt
+.fa-angle-down {
+    /* width: 20px; */
+}
+
+.order {
+background-color: orange;
+height: 25px;
+border-radius: 5px;
+padding: 2ex;
+font-size: 100%;
+
+
+}
+
+*  {
+    border: 1px solid green;
+}
